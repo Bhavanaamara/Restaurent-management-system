@@ -1,0 +1,37 @@
+<!-- orders.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Management</title>
+    <link rel="stylesheet" href="Restaurent management system.css">
+</head>
+<body>
+    <header>
+        <h1>Order Management</h1>
+    </header>
+    <main>
+        <div class="orders-container">
+            <h2>Current Orders</h2>
+            <ul id="orders-list">
+                <!-- Orders will be added dynamically using JavaScript -->
+            </ul>
+        </div>
+        <div class="add-order">
+            <h2>Add New Order</h2>
+            <form id="add-order-form">
+                <label for="customer-name">Customer Name:</label>
+                <input type="text" id="customer-name" name="customer-name" required>
+                <label for="order-details">Order Details:</label>
+                <textarea id="order-details" name="order-details" rows="4" required></textarea>
+                <button type="submit">Place Order</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Restaurant Management System</p>
+    </footer>
+    <script src="Restaurent management system.js"></script>
+</body>
+</html>
